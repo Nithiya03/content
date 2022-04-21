@@ -1,0 +1,14 @@
+<div>
+    <div class="header">
+        {{header}}
+    </div>
+    <div class="body">
+        <ng-content></ng-content>
+    </div>
+    <div class="body">
+        <ng-content select="[question]"></ng-content>
+    </div>
+    <div class="footer">
+        {{today}}
+    </div>
+</div>
